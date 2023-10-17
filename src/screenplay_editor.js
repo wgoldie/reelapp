@@ -41,7 +41,7 @@ const ScreenplayEditor = () => {
 
   const handleSaveToFile = () => {
     const screenplayContent = content
-      .map((c, i) => `\n# ${sections[i]}\n${c}`)
+      .map((c, i) => `# ${sections[i]}\n${c}\n`)
       .join("\n"); // Join sections with two new lines
     const blob = new Blob([screenplayContent], { type: "text/plain" });
     const url = URL.createObjectURL(blob);
