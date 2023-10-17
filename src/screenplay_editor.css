@@ -1,0 +1,28 @@
+/* src/ScreenplayEditor.css */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.draggable-textarea {
+  position: relative;
+  border: 2px solid #ccc;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.draggable-textarea textarea {
+  width: 100%;
+  height: 100%;
+  resize: none;
+}
+
+.headers {
+  display: flex;
+}
+
+.headers h3 {
+  cursor: pointer;
+}
