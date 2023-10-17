@@ -21,7 +21,7 @@ const sectionDescriptions = ["", "", "", "", "", "", "", ""];
 const ScreenplayEditor = () => {
   const [content, setContent] = useState(() => {
     const savedContent =
-      JSON.parse(localStorage.getItem("screenplayContent")).slice(0, 8) ||
+      JSON.parse(localStorage.getItem("screenplayContent"))?.slice(0, 8) ||
       Array(8).fill("");
     return savedContent;
   });
