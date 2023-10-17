@@ -2,7 +2,7 @@
   "name": "reeleditor",
   "version": "0.1.0",
   "private": true,
-  "homepage": "wgoldie.github.io/reelapp/build/",
+  "homepage": "https://wgoldie.github.io/reelapp/build/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
